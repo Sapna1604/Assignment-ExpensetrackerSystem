@@ -1,0 +1,97 @@
+body {
+    background-image: url('../static/images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    padding: 30px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.8); /* Optional for background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional for box shadow */
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch; /* Ensures all items stretch to full width */
+    margin-top: 20px;
+}
+
+.form-control {
+    margin-bottom: 15px;
+    width: 100%; /* Ensure input fields stretch across the full container */
+}
+
+.form-control input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-control input:focus {
+    border-color: #4CAF50;
+}
+
+.user-pic-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.form-container button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px; /* Adds some space between the last input field and the submit button */
+}
+
+.form-container button:hover {
+    background-color: #45a049;
+}
+
+.image-preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image-preview__image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.image-preview__default-text {
+    font-size: 14px;
+    color: #777;
+    padding-top: 30px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: black;
+    font-family: 'Baloo Bhai 2', sans-serif;
+    text-align: center;
+    font-weight: 500;
+}
